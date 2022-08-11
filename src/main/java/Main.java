@@ -3,7 +3,7 @@ public class Main {
 
         BonusService service = new BonusService();
 
-        long amount = 34;
+        long amount = 1000;
         boolean registered = true;
 
         long bonus = service.calculate(amount, registered);
