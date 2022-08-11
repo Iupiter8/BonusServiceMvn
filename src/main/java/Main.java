@@ -5,8 +5,9 @@ public class Main {
         long amount = 34;
         boolean registered = true;
 
-        service.calculate(amount, registered);
-        //System.out.println(bonus);
+        long bonus = service.calculate(amount, registered);
+        System.out.println(bonus);
+
 
     }
 }
